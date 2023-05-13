@@ -1,2 +1,2 @@
 # foschiera.dev
-My personal website
+Personal blog about python and other tecnologies
