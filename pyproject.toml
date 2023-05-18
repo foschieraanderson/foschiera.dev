@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "foschiera-dev"
+version = "0.1.0"
+description = ""
+authors = ["Anderson Foschiera <foschieraanderson@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "foschiera"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.4.3"
+mkdocs-material = "^9.1.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
