@@ -1,5 +1,5 @@
 site_name: Foschiera
-site_url: https://foschiera.dev
+site_url: https://www.foschiera.dev
 repo_url: https://github.com/foschieraanderson/foschiera.dev
 repo_name: foschieraanderson/foschiera.dev
 site_author: Anderson Foschiera
@@ -70,14 +70,14 @@ plugins:
         features:
             tags:
                 insert: top
-        locale: pt-br         # The locale for time localizations, default: system's locale
-        time_format: '%d/%m/%Y' # The format used to display the time
-        meta_time_format: '%Y-%m-%d %H:%M:%S' # The format used to parse the time from meta
+        locale: pt-br
+        time_format: '%d/%m/%Y'
+        meta_time_format: '%Y-%m-%d %H:%M:%S'
 
 
 
 extra:
-  homepage: https://foschiera.dev
+  homepage: https://www.foschiera.dev
   generator: false
   social:
     - icon: fontawesome/brands/github
