@@ -1,0 +1,92 @@
+site_name: Foschiera
+site_url: https://foschiera.dev
+repo_url: https://github.com/foschieraanderson/foschiera.dev
+repo_name: foschieraanderson/foschiera.dev
+site_author: Anderson Foschiera
+site_description: A Personal Blog
+copyright: |
+  Copyright &copy; 2023 <a href="https://github.com/foschieraanderson"  target="_blank" rel="noopener">Anderson Foschiera</a>
+
+theme:
+    name: material
+    language: pt-BR
+    logo: assets/logo.png
+    favicon: assets/favicon.png
+    icon:
+      repo: fontawesome/brands/github
+    palette:
+        - scheme: default
+          primary: light green
+          accent: light green
+          toggle:
+              icon: material/brightness-7
+              name: Switch to dark mode
+        - scheme: slate
+          primary: light green
+          accent: light green
+          toggle:
+              icon: material/brightness-4
+              name: Switch to light mode
+    font:
+        text: Roboto
+        code: Fira Code Medium
+    features:
+        # --- Navigation
+        - navigation.tabs
+        - navigation.expand
+        - navigation.path
+        - navigation.indexes
+        - toc.follow
+        - navigation.top
+        # --- Search
+        - search.share
+        - search.highlight
+        - search.suggest
+        # --- Content
+        - content.tabs.link
+        - content.code.copy
+        - content.code.annotations
+
+markdown_extensions:
+    - pymdownx.emoji
+    - pymdownx.tasklist
+    - pymdownx.mark
+    - pymdownx.tilde
+    - pymdownx.highlight:
+        anchor_linenums: true
+        line_spans: __span
+        pygments_lang_class: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+
+plugins:
+    - blogging:
+        dirs:
+          - blog
+        sixe: 5
+        theme:
+            name: card
+        features:
+            tags:
+                insert: top
+        locale: pt-br         # The locale for time localizations, default: system's locale
+        time_format: '%d/%m/%Y' # The format used to display the time
+        meta_time_format: '%Y-%m-%d %H:%M:%S' # The format used to parse the time from meta
+
+
+
+extra:
+  homepage: https://foschiera.dev
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/foschieraanderson
+      name: Github
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/anderson-foschiera/
+      name: Linkedin
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/foschiera_anderson
+      name: Instagram
+

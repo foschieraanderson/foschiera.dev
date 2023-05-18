@@ -13,7 +13,10 @@ python = "^3.10"
 
 [tool.poetry.group.docs.dependencies]
 mkdocs = "^1.4.3"
-mkdocs-material = "^9.1.12"
+pymdown-extensions = "^10.0.1"
+mkdocs-material = "^9.1.13"
+mkdocs-blogging-plugin = "^2.2.5"
+
 
 [build-system]
 requires = ["poetry-core"]
