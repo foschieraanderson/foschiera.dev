@@ -59,12 +59,13 @@ markdown_extensions:
     - pymdownx.inlinehilite
     - pymdownx.snippets
     - pymdownx.superfences
+    - pymdownx.blocks.html
 
 plugins:
     - blogging:
         dirs:
           - blog
-        sixe: 5
+        size: 5
         theme:
             name: card
         features:
