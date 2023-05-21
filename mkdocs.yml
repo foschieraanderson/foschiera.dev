@@ -1,9 +1,9 @@
-site_name: Foschiera
+site_name: Anderson Foschiera
 site_url: https://www.foschiera.dev
 repo_url: https://github.com/foschieraanderson/foschiera.dev
 repo_name: foschieraanderson/foschiera.dev
 site_author: Anderson Foschiera
-site_description: A Personal Blog
+site_description: Blog sobre desenvolvimento web e boas práticas
 copyright: |
   Copyright &copy; 2023 <a href="https://github.com/foschieraanderson"  target="_blank" rel="noopener">Anderson Foschiera</a>
 
