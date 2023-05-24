@@ -64,7 +64,7 @@ markdown_extensions:
 plugins:
     - blogging:
         dirs:
-          - blog
+            - blog
         size: 5
         theme:
             name: card
@@ -78,16 +78,18 @@ plugins:
 
 
 extra:
-  homepage: https://www.foschiera.dev
-  generator: false
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/foschieraanderson
-      name: Github
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/anderson-foschiera/
-      name: Linkedin
-    - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/foschiera_anderson
-      name: Instagram
-
+    homepage: https://www.foschiera.dev
+    generator: false
+    social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/foschieraanderson
+          name: Github
+        - icon: fontawesome/brands/linkedin
+          link: https://www.linkedin.com/in/anderson-foschiera/
+          name: Linkedin
+        - icon: fontawesome/brands/instagram
+          link: https://www.instagram.com/foschiera_anderson
+          name: Instagram
+    analytics:
+        provider: google
+        property: G-Q2GXXJ93YD
