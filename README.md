@@ -63,7 +63,7 @@ Personal blog about python and other technologies created with [MkDocs](https://
 * [Poetry](https://python-poetry.org)
 
 
-## Licence
+## License
 Este projeto está sob a licença do MIT. Consulte a [LICENSE](./LICENSE) para obter mais informações.
 
 ---
