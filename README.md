@@ -14,6 +14,7 @@ Personal blog about python and other technologies created with [MkDocs](https://
       </ul>
     </li>
     <li><a href="#technologies">Technologies</a></li>
+    <li><a href="#license">License</a></li>
   </ul>
 </details>
 
@@ -61,6 +62,9 @@ Personal blog about python and other technologies created with [MkDocs](https://
 * [MkDocs](https://www.mkdocs.org)
 * [Poetry](https://python-poetry.org)
 
+
+## Licence
+Este projeto está sob a licença do MIT. Consulte a [LICENSE](./LICENSE) para obter mais informações.
 
 ---
 
