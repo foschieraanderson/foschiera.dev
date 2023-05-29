@@ -71,11 +71,16 @@ plugins:
         features:
             tags:
                 insert: top
+        categories:
+            - name: python
+              dirs:
+                  - python
+              size: 5
+              theme:
+                  name: card
         locale: pt-br
         time_format: '%d/%m/%Y'
         meta_time_format: '%Y-%m-%d %H:%M:%S'
-
-
 
 extra:
     homepage: https://www.foschiera.dev
