@@ -15,13 +15,15 @@ theme:
   icon:
     repo: fontawesome/brands/github
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: light green
       accent: light green
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: light green
       accent: light green
       toggle:
@@ -62,6 +64,8 @@ markdown_extensions:
   - pymdownx.blocks.html
 
 plugins:
+  - search:
+      lang: pt
   - blogging:
       dirs:
         - blog

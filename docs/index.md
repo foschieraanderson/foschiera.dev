@@ -1,4 +1,4 @@
-# Home
+---
 
 Bem-vindo(a) ao meu cantinho onde escrevo sobre tecnologias, web e porquê não... sobre mim.
 
