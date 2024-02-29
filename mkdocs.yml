@@ -5,96 +5,96 @@ repo_name: foschieraanderson/foschiera.dev
 site_author: Anderson Foschiera
 site_description: Blog sobre desenvolvimento web e boas práticas
 copyright: |
-  Copyright &copy; 2023 <a href="https://github.com/foschieraanderson"  target="_blank" rel="noopener">Anderson Foschiera</a>
+  Copyright &copy; 2023 - 2024 <a href="https://github.com/foschieraanderson"  target="_blank" rel="noopener">Anderson Foschiera</a>
 
 theme:
-    name: material
-    language: pt-BR
-    logo: assets/logo.png
-    favicon: assets/images/favicon.png
-    icon:
-      repo: fontawesome/brands/github
-    palette:
-        - scheme: default
-          primary: light green
-          accent: light green
-          toggle:
-              icon: material/brightness-7
-              name: Switch to dark mode
-        - scheme: slate
-          primary: light green
-          accent: light green
-          toggle:
-              icon: material/brightness-4
-              name: Switch to light mode
-    font:
-        text: Roboto
-        code: Fira Code Medium
-    features:
-        # --- Navigation
-        - navigation.tabs
-        - navigation.expand
-        - navigation.path
-        - navigation.indexes
-        - toc.follow
-        - navigation.top
-        # --- Search
-        - search.share
-        - search.highlight
-        - search.suggest
-        # --- Content
-        - content.tabs.link
-        - content.code.copy
-        - content.code.annotations
+  name: material
+  language: pt-BR
+  logo: assets/logo.png
+  favicon: assets/images/favicon.png
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: default
+      primary: light green
+      accent: light green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: light green
+      accent: light green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Fira Code Medium
+  features:
+    # --- Navigation
+    - navigation.tabs
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+    # --- Search
+    - search.share
+    - search.highlight
+    - search.suggest
+    # --- Content
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotations
 
 markdown_extensions:
-    - pymdownx.emoji
-    - pymdownx.tasklist
-    - pymdownx.mark
-    - pymdownx.tilde
-    - pymdownx.highlight:
-        anchor_linenums: true
-        line_spans: __span
-        pygments_lang_class: true
-    - pymdownx.inlinehilite
-    - pymdownx.snippets
-    - pymdownx.superfences
-    - pymdownx.blocks.html
+  - pymdownx.emoji
+  - pymdownx.tasklist
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.blocks.html
 
 plugins:
-    - blogging:
-        dirs:
-            - blog
-        size: 5
-        theme:
+  - blogging:
+      dirs:
+        - blog
+      size: 5
+      theme:
+        name: card
+      features:
+        tags:
+          insert: top
+      categories:
+        - name: python
+          dirs:
+            - python
+          size: 5
+          theme:
             name: card
-        features:
-            tags:
-                insert: top
-        categories:
-            - name: python
-              dirs:
-                  - python
-              size: 5
-              theme:
-                  name: card
-        locale: pt-br
-        time_format: '%d/%m/%Y'
-        meta_time_format: '%Y-%m-%d %H:%M:%S'
+      locale: pt-br
+      time_format: "%d/%m/%Y"
+      meta_time_format: "%Y-%m-%d %H:%M:%S"
 
 extra:
-    homepage: https://www.foschiera.dev
-    generator: false
-    social:
-        - icon: fontawesome/brands/github
-          link: https://github.com/foschieraanderson
-          name: Github
-        - icon: fontawesome/brands/linkedin
-          link: https://www.linkedin.com/in/anderson-foschiera/
-          name: Linkedin
-        - icon: fontawesome/brands/instagram
-          link: https://www.instagram.com/foschiera_anderson
-          name: Instagram
-    analytics:
-        provider: google
-        property: G-BNTYP6LGVJ
+  homepage: https://www.foschiera.dev
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/foschieraanderson
+      name: Github
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/anderson-foschiera/
+      name: Linkedin
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/foschiera_anderson
+      name: Instagram
+  analytics:
+    provider: google
+    property: G-BNTYP6LGVJ
