@@ -2,22 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://www.foschiera.dev/</loc>
-         <lastmod>2024-02-29</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-31</lastmod>
     </url>
     <url>
          <loc>https://www.foschiera.dev/about/</loc>
-         <lastmod>2024-02-29</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-31</lastmod>
     </url>
     <url>
          <loc>https://www.foschiera.dev/blog/</loc>
-         <lastmod>2024-02-29</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-31</lastmod>
     </url>
     <url>
          <loc>https://www.foschiera.dev/blog/python/</loc>
-         <lastmod>2024-02-29</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-31</lastmod>
     </url>
 </urlset>
