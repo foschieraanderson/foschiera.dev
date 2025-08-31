@@ -40,8 +40,8 @@ menu:
   - ["Sobre", "sobre.html"]
   - ["Blog", "archive.html"]
   # - ["Tutoriais", "tutorials.html"]
-  - ["Tags", "tags.html"]
-  - ["Autores", "authors.html"]
+  # - ["Tags", "tags.html"]
+  # - ["Autores", "authors.html"]
 # menu:
 #   - - Tags
 #     - tags.html
