@@ -1,1 +1,21 @@
-/* Custom CSS */
+/*
+-------------------------------
+  ### FOOTER ###
+-------------------------------
+*/
+
+.site-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.content-footer-social {
+  display: flex;
+}
+

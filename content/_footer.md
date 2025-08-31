@@ -1,7 +1,7 @@
-<div class="site-footer" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-    <div style="display: flex; justify-content: space-between; width: 100%;">
+<div class="site-footer">
+    <div class="content-footer">
         <p>2025 © Anderson Foschiera</p>
-        <div style="display: flex;">
+        <div class="content-footer-social">
             <a href="https://github.com/foschieraanderson" target="_blank"><i class="fa-brands fa-github"></i></a>
             <a href="https://www.linkedin.com/in/anderson-foschiera" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://instagram.com/foschiera_anderson" target="_blank"><i class="fa-brands fa-instagram"></i></a>
