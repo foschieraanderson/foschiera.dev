@@ -32,8 +32,8 @@ authors:
 # Visual assets
 card_image: ""
 banner_image: ""
-logo_image: ""
-# logo_image: "media/logo.png"
+# logo_image: ""
+logo_image: "media/logo.png"
 #
 # Navigation
 menu:
