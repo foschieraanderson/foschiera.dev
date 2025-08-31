@@ -2,7 +2,6 @@ name: Foschiera.Dev
 tagline: Web | Boas Práticas | Terminal
 url: "http://foschiera.dev"
 https: true
-footer: <div><p>© 2025 - Anderson Foschiera</p><small>Powered by <a href="https://github.com/rochacbruno/marmite">Marmite</a></small></div>
 language: "pt"
 
 # Content settings
@@ -38,7 +37,6 @@ logo_image: ""
 #
 # Navigation
 menu:
-  # - ["Home", "index.html"]
   - ["Sobre", "sobre.html"]
   - ["Blog", "archive.html"]
   # - ["Tutoriais", "tutorials.html"]
