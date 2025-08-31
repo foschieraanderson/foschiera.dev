@@ -1,12 +1,15 @@
-##### Comments
-**edit `content/_comments.md` to adjust for your own site/repo**
-
-**remove** the file to disable comments
-
-<script src='https://utteranc.es/client.js'
-repo='rochacbruno/issue-bin'
-issue-term='pathname'
-theme='preferred-color-scheme'
-crossorigin='anonymous'
-async>
+<script src="https://giscus.app/client.js"
+        data-repo="foschieraanderson/foschiera.dev"
+        data-repo-id="R_kgDOIOUycA"
+        data-category="General"
+        data-category-id="DIC_kwDOIOUycM4CuzsU"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="catppuccin_mocha"
+        data-lang="pt"
+        crossorigin="anonymous"
+        async>
 </script>
