@@ -1,8 +1,8 @@
-name: Deploy com Marmite para Netlify
+name: Netlify Deploy
 
 on:
   push:
-    branches: [main] # Ou a branch que você usa como principal
+    branches: [main]
 
 jobs:
   build_and_deploy:
@@ -12,23 +12,22 @@ jobs:
       - name: Checkout do código
         uses: actions/checkout@v4
 
-      - name: Instalar Rust
+      - name: Install Rust
         uses: actions-rs/toolchain@v1
         with:
           toolchain: stable
           override: true
 
-      - name: Instalar Marmite
+      - name: Install Marmite
         run: cargo install marmite
 
-      - name: Gerar site estático com Marmite
-        run: |
-          marmite . site --debug
+      - name: Build Site
+        run: marmite . site --debug
 
-      - name: Instalar Netlify CLI
+      - name: Install Netlify CLI
         run: npm install -g netlify-cli
 
-      - name: Fazer deploy no Netlify
+      - name: Deploy to Netlify
         run: netlify deploy --prod --dir=site --site=$NETLIFY_SITE_ID --auth=$NETLIFY_AUTH_TOKEN
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
