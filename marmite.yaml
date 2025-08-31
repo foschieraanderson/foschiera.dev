@@ -1,0 +1,82 @@
+name: Foschiera.Dev
+tagline: Web | Boas Práticas | Terminal
+url: "http://foschiera.dev"
+https: true
+footer: <div><p>© 2025 - Anderson Foschiera</p><small>Powered by <a href="https://github.com/rochacbruno/marmite">Marmite</a></small></div>
+language: "pt"
+
+# Content settings
+pagination: 10
+# pages_title: Pages
+# tags_title: Tags
+# tags_content_title: Posts tagged with '$tag'
+archives_title: Blog
+archives_content_title: Posts from '$year'
+# streams_title: Streams
+# streams_content_title: Posts from '$stream'
+# series_title: Series
+# series_content_title: Posts from '$series' series
+authors_title: Autores
+default_author: "foschiera"
+default_date_format: "%B %d, %Y"
+
+# Authors
+authors:
+  foschiera:
+    name: "Anderson Foschiera"
+    avatar: "https://github.com/foschieraanderson.png"
+    bio: "Full-stack developer and tech enthusiast"
+    links:
+      - ["Website", "https://foschiera.dev"]
+      - ["GitHub", "https://github.com/foschieraanderson"]
+
+# Visual assets
+card_image: ""
+banner_image: ""
+logo_image: ""
+# logo_image: "media/logo.png"
+#
+# Navigation
+menu:
+  # - ["Home", "index.html"]
+  - ["Sobre", "sobre.html"]
+  - ["Blog", "archive.html"]
+  # - ["Tutoriais", "tutorials.html"]
+  - ["Tags", "tags.html"]
+  - ["Autores", "authors.html"]
+# menu:
+#   - - Tags
+#     - tags.html
+#   - - Archive
+#     - archive.html
+#   - - Authors
+#     - authors.html
+
+# Custom configuration
+extra:
+  colorscheme: catppuccin
+  social_media:
+    linkedin:
+      url: https://www.linkedin.com/in/foschieraanderson
+    github:
+      url: https://github.com/foschieraanderson
+  custom_features:
+    dark_mode: true
+streams: {}
+series: {}
+
+# Features
+search_title: "Buscar no site:"
+content_path: content
+templates_path: templates
+static_path: static
+media_path: media
+
+enable_search: true
+enable_related_content: true
+show_next_prev_links: true
+toc: true
+json_feed: false
+publish_md: false
+source_repository: null
+image_provider: picsum
