@@ -1,0 +1,99 @@
+{
+  "marmite_version": "0.2.6",
+  "posts": 1,
+  "pages": 1,
+  "generated_at": "2025-08-31 03:04:05.403232048 -03:00",
+  "timestamp": 1756620245,
+  "elapsed_time": 0.054368296,
+  "config": {
+    "name": "Foschiera.Dev",
+    "tagline": "Web | Boas Práticas | Terminal",
+    "url": "http://foschiera.dev",
+    "https": true,
+    "footer": "<div><p>© 2025 - Anderson Foschiera</p><small>Powered by <a href=\"https://github.com/rochacbruno/marmite\">Marmite</a></small></div>",
+    "language": "pt",
+    "pagination": 10,
+    "pages_title": "Pages",
+    "tags_title": "Tags",
+    "tags_content_title": "Posts tagged with '$tag'",
+    "archives_title": "Blog",
+    "archives_content_title": "Posts from '$year'",
+    "streams_title": "Streams",
+    "streams_content_title": "Posts from '$stream'",
+    "series_title": "Series",
+    "series_content_title": "Posts from '$series' series",
+    "default_author": "foschiera",
+    "authors_title": "Autores",
+    "enable_search": true,
+    "enable_related_content": true,
+    "search_title": "Buscar no site:",
+    "content_path": "content",
+    "site_path": "",
+    "templates_path": "templates",
+    "static_path": "static",
+    "media_path": "media",
+    "card_image": "",
+    "banner_image": "",
+    "logo_image": "",
+    "default_date_format": "%B %d, %Y",
+    "menu": [
+      [
+        "Sobre",
+        "sobre.html"
+      ],
+      [
+        "Blog",
+        "archive.html"
+      ],
+      [
+        "Tags",
+        "tags.html"
+      ],
+      [
+        "Autores",
+        "authors.html"
+      ]
+    ],
+    "extra": {
+      "custom_features": {
+        "dark_mode": true
+      },
+      "colorscheme": "catppuccin",
+      "social_media": {
+        "linkedin": {
+          "url": "https://www.linkedin.com/in/foschieraanderson"
+        },
+        "github": {
+          "url": "https://github.com/foschieraanderson"
+        }
+      }
+    },
+    "authors": {
+      "foschiera": {
+        "name": "Anderson Foschiera",
+        "avatar": "https://github.com/foschieraanderson.png",
+        "bio": "Full-stack developer and tech enthusiast",
+        "links": [
+          [
+            "Website",
+            "https://foschiera.dev"
+          ],
+          [
+            "GitHub",
+            "https://github.com/foschieraanderson"
+          ]
+        ]
+      }
+    },
+    "streams": {},
+    "series": {},
+    "toc": true,
+    "json_feed": false,
+    "show_next_prev_links": true,
+    "publish_md": false,
+    "source_repository": null,
+    "image_provider": "picsum",
+    "markdown_parser": null,
+    "theme": null
+  }
+}
