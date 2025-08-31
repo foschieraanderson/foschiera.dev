@@ -1,8 +1,8 @@
 <div class="hero-grid h-card">
 
-<div class="hero-image">
-        <img src="./media/avatar.png" style="width: 100px;" class="p-photo avatar">
-</div>
+<!-- <div class="hero-image"> -->
+<!--         <img src="./media/avatar.png" style="width: 100px;" class="p-photo avatar"> -->
+<!-- </div> -->
 <div class="hero-text">
 
 ##### Bem vindo(a) ao meu mundo! 🌏
