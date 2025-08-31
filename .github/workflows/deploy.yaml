@@ -1,0 +1,35 @@
+name: Deploy no Netlify
+
+on:
+  push:
+    branches:
+      - main # ou master, depende da sua branch
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checar código
+        uses: actions/checkout@v3
+
+      - name: Instalar Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          override: true
+
+      - name: Install marmite 🫙
+        run: cargo install --git https://github.com/rochacbruno/marmite --branch main
+
+      - name: Build site 🏗️
+        run: marmite . site --debug
+
+      - name: Instalar Netlify CLI
+        run: npm install -g netlify-cli
+
+      - name: Deploy no Netlify
+        run: netlify deploy --dir=site --prod --auth=$NETLIFY_AUTH_TOKEN --site=$NETLIFY_SITE_ID
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
